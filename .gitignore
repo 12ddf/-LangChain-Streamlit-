@@ -1,0 +1,30 @@
+# 关键的敏感文件
+.env
+*.env
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook 缓存
+.ipynb_checkpoints
+
+# IDE/编辑器 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 虚拟环境文件夹
+venv/
+env/
+.venv/
+
+# ChromaDB 本地持久化数据 (如果不想上传的话)
+chroma/
